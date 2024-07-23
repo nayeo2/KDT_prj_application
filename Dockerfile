@@ -1,5 +1,5 @@
 # 공식 OpenJDK 17 런타임을 부모 이미지로 사용
-FROM openjdk:17-jre-slim
+FROM openjdk:17-jdk-slim
 
 # 컨테이너에서 작업 디렉토리 설정
 WORKDIR /app
